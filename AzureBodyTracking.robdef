@@ -1,0 +1,14 @@
+#Service to provide sample interface to webcams
+service AzureBodyTracking
+
+
+option version 0.5
+
+
+object Kinect    
+
+function double[] getpose()    
+function uint8[] getframe()
+function uint16[] getdepth()
+
+end object
